@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batu Kertas Gunting - Pertarungan Epik!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Batu Kertas Gunting</h1>
+        <div class="score">
+            <div class="player-score">Pemain: <span id="player-score">0</span></div>
+            <div class="computer-score">Komputer: <span id="computer-score">0</span></div>
+        </div>
+        <div class="choices">
+            <button class="choice" id="batu">🪨</button>
+            <button class="choice" id="kertas">📄</button>
+            <button class="choice" id="gunting">✂️</button>
+        </div>
+        <div class="result">
+            <p id="result-text">Pilih senjatamu!</p>
+        </div>
+        <div class="animations">
+            <div id="player-choice-display"></div>
+            <div id="computer-choice-display"></div>
+        </div>
+        <button id="reset">Reset Permainan</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
